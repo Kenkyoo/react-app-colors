@@ -1,0 +1,38 @@
+{
+  "name": "my-first-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "build:sass": "sass src/input.scss src/styles.css",
+    "watch:sass": "sass --watch src/input.scss:src/styles.css"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.5",
+    "clipboard": "^2.0.11",
+    "randomcolor": "^0.6.2",
+    "react": "^18.3.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.3.1",
+    "validate-color": "^2.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "daisyui": "^4.12.10",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "sass": "^1.78.0",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.4.1"
+  }
+}
